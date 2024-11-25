@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Patrick Maullon" />
+    <meta name="description" content="POS page of Inventory Management System" />
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <!-------------------Whole Canvas --------------------->
+    <div class="d-flex flex-row">
+      <!------------------- Sidebar --------------------->
+      <div class="d-flex flex-column flex-shrink-0 p-3 bg-light sidebar shadow" style="width: 280px">
+        <span class="fs-4 fw-bold user-select-none">Inventory System</span>
+        <hr />
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link link-dark"> <i class="bi bi-speedometer"></i> Dashboard </a>
+          </li>
+          <li>
+            <a href="pos.html" class="nav-link active" aria-current="page"> <i class="bi bi-cash-coin"></i> POS </a>
+          </li>
+          <li>
+            <a href="inventory.html" class="nav-link link-dark"> <i class="bi bi-table"></i> Inventory </a>
+          </li>
+          <li>
+            <a href="invoice.html" class="nav-link link-dark"> <i class="bi bi-receipt"></i> Invoice </a>
+          </li>
+        </ul>
+      </div>
+      <!------------------- Main Content --------------------->
+      <div class="container-fluid"><h1 class="display-5">This is the POS Page</h1></div>
+    </div>
+  </body>
+</html>
